@@ -10,10 +10,10 @@ const Navbar = () => {
         </div>
         <div className="ss__navbar_links-container">
           <p><a href="#header">Home</a></p>
-          <p><a href="#header">save</a></p>
-          <p><a href="#header">business</a></p>
+          <p><a href="#journey">save</a></p>
+          <p><a href="#application">business</a></p>
           <p><a href="#header">blog</a></p>
-          <p><a href="#header">contact us</a></p>
+          <p><a href="#footer">contact us</a></p>
         </div>
         <div className="ss__navbar_sign">
           <div className="ss__navbar_sign_log-in">

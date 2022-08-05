@@ -39,6 +39,7 @@
     border: none;
     border-radius: 8px;
     color: #FBFBFB;
+    cursor: pointer;
     font-family: var(--font-family);
     padding: 1rem;
     margin-top: 24px;

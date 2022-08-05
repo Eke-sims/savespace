@@ -1,0 +1,31 @@
+.ss__footer{
+    background-color: var(--secondaryColor);
+    color: var(--bgColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ss__footer_links-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.ss__footer_link-section{
+    flex: 1;
+    flex-direction: column;
+}
+
+.ss__footer_logo{
+    background-color: var(--bgColor);
+}
+
+.ss__footer_link{
+    list-style: none;
+}
+
+.ss__footer_copy{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
