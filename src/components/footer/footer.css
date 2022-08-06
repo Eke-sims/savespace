@@ -53,6 +53,7 @@
 }
 
 .ss__footer_link li{
+    cursor: pointer;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
@@ -66,4 +67,13 @@
     display: flex;
     justify-content: center;
     margin-top: 48px;
+}
+
+.ss__footer_copy-text{
+    display: flex;
+    align-items: center;
+}
+
+.ss__footer_copy-text img{
+    margin-left: 10px;
 }

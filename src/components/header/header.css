@@ -64,6 +64,7 @@
 .ss__header_text-container_store img{
     height: 24px;
     width: 24px;
+    margin-right: 10px;
 }
 
 .ss__header_text-container_store p{

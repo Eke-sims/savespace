@@ -44,10 +44,4 @@
     .ss__application{
         flex-direction: column;
     }
-    .ss__application_img-container{
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 }

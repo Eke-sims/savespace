@@ -1,0 +1,62 @@
+.ss__goals{
+    display: flex;
+}
+
+.ss__goals_content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.ss__goals_content_title{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #1E1E1E;
+}
+
+
+.ss__goals_content_text{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 16px;
+    color: #444444;
+}
+
+.ss__goals_content_comment{
+    display: flex;
+    gap: 32px;
+    margin-top: 40px;
+}
+
+.ss__goals_content_comment img{
+    height: 100px;
+    width: 100px;
+}
+
+.ss__goals_content_comment_text{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.ss__goals_img-container{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media screen and (max-width:1050px) {
+    .ss__goals{
+        flex-direction: column;
+    }
+}

@@ -1,5 +1,7 @@
 import './header.css'
 import headerImg from '../../assets/headerImg.png'
+import store from '../../assets/apple.png'
+import play from '../../assets/playstore.png'
 
 const Header = () => {
   return (
@@ -16,10 +18,10 @@ const Header = () => {
         <button type='button' className='create-account'>Create Free Account</button>
         <div className="ss__header_text-container_store">
           <div className='ss_header_text-container_store-icon'>
-            <img src="" alt="store icon" /> <p>Get on Apple</p>
+            <img src={store} alt="Apple store icon" /> <p>Get on Apple</p>
           </div>
           <div className='ss_header_text-container_store-icon'>
-            <img src="" alt="store icon" /> <p>Get on Android</p>
+            <img src={play} alt="Play store icon" /> <p>Get on Android</p>
           </div>
         </div>
       </div>

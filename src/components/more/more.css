@@ -5,6 +5,7 @@
 .ss__more_image-container{
     display: flex;
     flex: 1;
+    margin-bottom: 32px;
 }
 
 .ss__more_content{
@@ -48,6 +49,12 @@
     line-height: 20px;
     margin-top: 32px;
     outline: none;
-    padding: 1rem;
+    padding: 18px 50px;
     color: #FBFBFB;
+}
+
+@media screen and (max-width:1050px) {
+    .ss__more{
+        flex-direction: column;
+    }
 }

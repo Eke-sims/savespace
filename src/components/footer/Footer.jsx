@@ -3,6 +3,7 @@ import logo from '../../assets/logo white.png'
 import facebook from '../../assets/facebookIcon.png'
 import twitter from '../../assets/twitterIcon.png'
 import instagram from '../../assets/InstagramIcon.png'
+import love from '../../assets/fxemoji_beating-heart.png'
 
 const Footer = () => {
   return (
@@ -56,7 +57,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="ss__footer_copy">
-        <p className="ss__footer_copy-text">© 2022 SaveSpace - Made with</p>
+        <p className="ss__footer_copy-text">© 2022 SaveSpace - Made with<img src={love} alt="love emoji" /></p>
       </div>
     </footer>
   )
