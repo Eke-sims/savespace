@@ -1,0 +1,53 @@
+.ss__more{
+    display: flex;
+}
+
+.ss__more_image-container{
+    display: flex;
+    flex: 1;
+}
+
+.ss__more_content{
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.ss__more_content_title{
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #1E1E1E;
+}
+
+.ss__more_content_list{
+    margin-top: 16px;
+    gap: 24px;
+}
+
+.ss__more_content_list li{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #444444;
+}
+
+.learn-more{
+    background-color: var(--secondaryColor);
+    border: none;
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 32px;
+    outline: none;
+    padding: 1rem;
+    color: #FBFBFB;
+}

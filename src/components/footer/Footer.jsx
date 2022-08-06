@@ -1,5 +1,5 @@
 import './footer.css'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo white.png'
 import facebook from '../../assets/facebookIcon.png'
 import twitter from '../../assets/twitterIcon.png'
 import instagram from '../../assets/InstagramIcon.png'
@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className='section__padding ss__footer' id='footer'>
       <div className="ss__footer_links-container">
-        <div className='ss__footer_link-section'>
+        <div className='ss__footer_link-section logo-section'>
           <img src={logo} alt="logo" className="ss__footer_logo" />
           <p>SaveSpace is the world largest and most secure digital savings service</p>
           <div className="ss__footer_social-link-container">
@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="ss__footer_copy">
-        <p className="ss__footer_copy-text">made with love</p>
+        <p className="ss__footer_copy-text">© 2022 SaveSpace - Made with</p>
       </div>
     </footer>
   )
