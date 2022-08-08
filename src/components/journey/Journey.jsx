@@ -12,6 +12,10 @@ const Journey = () => {
   ]
 
 
+  const featuresElement = featuresData.map(feature =>{
+    return <Feature img={feature.img} text={feature.text} />
+  });
+
   return (
     <section className="section__padding ss__journey" id='journey'>
       <div className="ss__journey_img-container">
@@ -26,9 +30,7 @@ const Journey = () => {
           secure savings and investment account with #0
         </p>
         <div className="ss__journey_content_features-container">
-          {featuresData.map(feature =>{
-            return <Feature img={feature.img} text={feature.text} />
-          })}
+          {featuresElement}
         </div>
         <button className='try-for-free'>Try For Free</button>
       </div>
