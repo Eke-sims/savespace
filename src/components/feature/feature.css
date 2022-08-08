@@ -1,5 +1,6 @@
 .feature-card{
     align-items: center;
+    background-color: var(--secondarycolor);
     display: flex;
     gap: 2rem;
     margin-top: 1rem;

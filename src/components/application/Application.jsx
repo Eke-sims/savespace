@@ -3,7 +3,7 @@ import features from '../../assets/Group 73.png'
 
 const Application = () => {
   return (
-    <seection className="section__padding ss__application" id='application'>
+    <section className="section__padding ss__application" id='application'>
       <div className="ss__application_content">
         <h1 className="ss__application_content_title">
           SaveSpace, Your all in one savings application.
@@ -19,7 +19,7 @@ const Application = () => {
       <div className="ss__application_img-container">
         <img src={features} alt="features" />
       </div>
-    </seection>
+    </section>
   )
 }
 

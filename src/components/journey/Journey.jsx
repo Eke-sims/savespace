@@ -13,7 +13,7 @@ const Journey = () => {
 
 
   const featuresElement = featuresData.map(feature =>{
-    return <Feature img={feature.img} text={feature.text} />
+    return <Feature key={feature.img} img={feature.img} text={feature.text} />
   });
 
   return (
