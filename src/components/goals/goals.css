@@ -33,12 +33,10 @@
     display: flex;
     gap: 32px;
     margin-top: 40px;
+    align-items: center;
 }
 
-.ss__goals_content_comment img{
-    height: 100px;
-    width: 100px;
-}
+
 
 .ss__goals_content_comment_text{
     font-family: 'Manrope';

@@ -71,6 +71,8 @@
     }
 }
 
-@media screen and (max-width:1050px) {
-    
+@media screen and (max-width:550px) {
+    .ss__journey_content_title{
+        text-align: center;
+    }
 }

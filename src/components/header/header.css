@@ -102,4 +102,15 @@
     .ss__header_text-container_title{
         font-weight: 800;
     }
+
+    .ss_header_text-container_store-icon{
+        border: 1px solid var(--secondaryColor);
+        border-radius: 8px;
+        display: flex;
+        padding: 10px;
+    }
+
+    .ss_header_text-container_store-icon p{
+        font-size: 12px;
+    }
 }
