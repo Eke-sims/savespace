@@ -4,7 +4,7 @@ import ellipse from '../../assets/Ellipse 24.png'
 
 const Goals = () => {
   return (
-    <section className="section__padding ss__goals">
+    <section className="section__padding ss__goals" id='goals'>
       <div className="ss__goals_content">
         <h1 className="ss__goals_content_title">Stay Focused on Your Financial Goals</h1>
         <p className="ss__goals_content_text">Improve your financial goals with custom goals that keep you going.

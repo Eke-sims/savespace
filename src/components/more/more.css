@@ -8,12 +8,17 @@
     margin-bottom: 32px;
 }
 
+.ss__more_image-container img{
+    height: 100%;
+}
+
 .ss__more_content{
     align-items: flex-start;
     justify-content: center;
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-bottom: 2rem;
 }
 
 .ss__more_content_title{
@@ -55,6 +60,17 @@
 
 @media screen and (max-width:1050px) {
     .ss__more{
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .ss__more_image-container{
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:550px) {
+    .ss__more_image-container img{
+        height: 100%;
+        width: 100%;
     }
 }

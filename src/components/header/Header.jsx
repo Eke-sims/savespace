@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <section className='section__padding ss__header' id='header'>
       <div className="ss__header_text-container">
-        <h1 className="ss__header_text-container_title">
+        <h1 className="ss__header_text-container_title title">
           You Don't Save,<span> We Save!</span> Your Money, Your Terms.
         </h1>
         <p className="ss__header_text-container-text">

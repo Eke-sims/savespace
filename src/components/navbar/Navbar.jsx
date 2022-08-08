@@ -12,7 +12,7 @@ const Navbar = () => {
           <p><a href="#header">Home</a></p>
           <p><a href="#journey">save</a></p>
           <p><a href="#application">business</a></p>
-          <p><a href="#header">blog</a></p>
+          <p><a href="#goals">blog</a></p>
           <p><a href="#footer">contact us</a></p>
         </div>
         <div className="ss__navbar_sign">

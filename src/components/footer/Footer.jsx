@@ -13,9 +13,9 @@ const Footer = () => {
           <img src={logo} alt="logo" className="ss__footer_logo" />
           <p>SaveSpace is the world largest and most secure digital savings service</p>
           <div className="ss__footer_social-link-container">
-            <img src={facebook} alt="facebook icon" />
-            <img src={twitter} alt="Twitter icon" />
-            <img src={instagram} alt="Instagram icon" />
+            <img src={facebook} alt="facebook icon" className='social-icon'/>
+            <img src={twitter} alt="Twitter icon" className='social-icon'/>
+            <img src={instagram} alt="Instagram icon" className='social-icon'/>
           </div>
         </div>
         <div className='ss__footer_link-section'>

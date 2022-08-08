@@ -52,6 +52,10 @@
     width: 40px;
 }
 
+.social-icon{
+    cursor: pointer;
+}
+
 .ss__footer_link li{
     cursor: pointer;
     font-family: 'Manrope';
@@ -76,4 +80,21 @@
 
 .ss__footer_copy-text img{
     margin-left: 10px;
+}
+
+
+@media screen and (max-width:550px) {
+    .ss__footer_links-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo-section{
+        align-self: center;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    .ss__footer_social-link-container{
+        justify-content: center;
+    }
 }

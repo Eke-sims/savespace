@@ -54,6 +54,11 @@
     justify-content: flex-end;
 }
 
+.ss__goals_img-container img{
+    height: 100%;
+    width: 100%;
+}
+
 
 @media screen and (max-width:1050px) {
     .ss__goals{

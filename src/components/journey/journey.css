@@ -58,4 +58,19 @@
     .ss__journey{
         flex-direction: column-reverse;
     }
+
+    .ss__journey_img-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .ss__journey_img-container img{
+        height: 700px;
+        width: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    
 }
