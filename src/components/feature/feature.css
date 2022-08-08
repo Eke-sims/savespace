@@ -7,8 +7,8 @@
 
 .feature-img{
     background-color: #dde6fc;
-    width: 60px;
-    height: 60px;
+    max-width: 60px;
+    max-height: 60px;
 }
 
 .feature-text{
