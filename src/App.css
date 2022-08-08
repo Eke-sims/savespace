@@ -55,15 +55,7 @@ body{
     }
 }
 
-@media screen and (max-width:400px) {
-    .section__padding{
-        padding: 2rem 1rem;
-    }
-    
-    .section__margin{
-        margin: 2rem 1rem;
-    }
-}
+
 
 
 @media screen and (min-width:1700px) {

@@ -190,7 +190,7 @@
 
 @media screen and (max-width:550px) {
     .ss__navbar-container{
-        padding: 0 2rem;
+        padding: 0 1rem;
     }
 
     .ss__navbar_sign{
